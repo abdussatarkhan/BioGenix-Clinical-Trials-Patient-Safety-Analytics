@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biogenix_clinical_trials_patient_safety_analytics"
+version = "1.0.0"
+description = "Phase-III Clinical Trials & Pharmacovigilance Data Warehouse: Patient recruitment velocity, Serious Adverse Event (SAE) early signals, protocol deviations, and Kaplan-Meier retention."
+readme = "README.md"
+authors = [
+    { name = "Abdussatar", email = "satarabdus692@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
